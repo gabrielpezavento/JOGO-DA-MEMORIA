@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="user-info"></h2>
+        <div id="memory-game" class="memory-game"></div>
+        <div id="score-board">Pontuação: <span id="score">0</span></div>
+        <button id="restart-button" onclick="restartGame()">Reiniciar Jogo</button>
+        <button onclick="saveScore()">Salvar Pontuação</button>
+        <a href="ranking.html">Ver Ranking</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
